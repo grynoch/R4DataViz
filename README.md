@@ -1,6 +1,7 @@
 # R4DataViz
-Originally created for NAHSL Continuing Education Class, You Say Tomato, I Say Tomato: A Hands-on Course in Data Visualization using Excel, R, and Tableau
-Class date: October 4, 2019
+Originally created for NAHSL Continuing Education Class, You Say Tomato, I Say Tomato: A Hands-on Course in Data Visualization using Excel, R, and Tableau  
+Class date: October 4, 2019  
+Instructors: Sally Gore and Tess Grynoch
 
 The R Markdown (Rmd) file contains the instructions for the R portion of the course. 
 
