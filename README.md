@@ -9,7 +9,8 @@ Of the 3 data files, the Rotten Tomatoes and Australia Weather data files are us
 Data Sources:
 
 AGRICULTURE_WORKERS_PERCENT_POPULATION.xlsx  
-Gapminder. "Agriculture workers (% of labour force)". Retrieved August 29, 2019 from [https://www.gapminder.org/data/](https://www.gapminder.org/data/)
+Gapminder. "Agriculture workers (% of labour force)". Retrieved August 29, 2019 from [https://www.gapminder.org/data/](https://www.gapminder.org/data/)  
+
 DAILY_WEATHER_AUSTRALIA.xlsx  
 Australian Government: Bureau of Meteorology. "Daily weather observations". Retrieved August 29, 2019 from [http://www.bom.gov.au/climate/dwo/](http://www.bom.gov.au/climate/dwo/)
 
