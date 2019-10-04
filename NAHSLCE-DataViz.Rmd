@@ -191,7 +191,7 @@ ggplot(data = data, mapping=aes(x=Genre, y=AVGNumRev)) +
   coord_flip() +
   theme(plot.title = element_text(size=20, hjust=.5)) +
   theme_classic() +
-  geom_text(hjust=0)
+  geom_text(aes(label=AVGNumRev),hjust=0)
 ```
 Lastly we'll highlight one row by adding another geom_col and filter for our favorite genre.
 ```{r eval=FALSE}
@@ -201,7 +201,7 @@ ggplot(data = data, mapping=aes(x=Genre, y=AVGNumRev)) +
   coord_flip() +
   theme(plot.title = element_text(size=20, hjust=.5)) +
   theme_classic() +
-  geom_text(hjust=0) +
+  geom_text(aes(label=AVGNumRev),hjust=0) +
   geom_col(data = filter(data, Genre == "Animation"), fill="#c90000")
 ```
 Congratulations on completing the plot wish list! 
@@ -214,7 +214,7 @@ RevPerGenreChart <- ggplot(data = data, mapping=aes(x=Genre, y=AVGNumRev)) +
   coord_flip() +
   theme(plot.title = element_text(size=20, hjust=.5)) +
   theme_classic() +
-  geom_text(hjust=0) +
+  geom_text(aes(label=AVGNumRev),hjust=0) +
   geom_col(data = filter(data, Genre == "Animation"), fill="#c90000")
   
 RevPerGenreChart
